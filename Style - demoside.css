@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    float: left; 
+    list-style: none;
+}
+
+
+li a {
+  display: block;
+}
+
+a {
+    display: block; 
+    padding: 10px 20px 5px 30px; 
+    text-decoration: none;
+    font-size: 20px; 
+    color: black; 
+    font-family:"Roboto", sans-serif;
+   
+}
+
+h1{
+    font-family:"Roboto", sans-serif;
+}
+
+h2{
+    font-family:"Roboto", sans-serif;
+    
+
+    <---!! Skjønner ikke---!!> 
+
+}
+
+header{
+    width: 10%; 
+    height: 100%;
+    background-color: white; 
+    position: fixed; 
+    z-index: 12; 
+
+}
+
+.wrapp-poster{
+    background-image: url(Bilder/MagnetBil.jpg.jpg); 
+    width: 100%;
+    margin: 0 auto;  
+    background-position: left top; 
+    background-size: cover; 
+    display:flex; 
+    height: 628px; 
+    
+}
+
+#hjem {
+    position: relative; 
+    padding-top: 100px;
+    padding-left: 600px; 
+    font-size: 30px; 
+}
+
+#installasjon img, #kontakt img{
+    float: left;
+    width: 50%
+    
+}
+
+#ide img, #vedlikehold img{
+    float: right;
+    width: 50%
+    
+}
+
+#installasjon .tekst, #kontakt .tekst{
+    width: 40%; 
+    float: left; 
+    padding: 70px 50px 30px 50px;
+}
+
+#ide .tekst, #vedlikehold .tekst{
+    width: 40%; 
+    float: right; 
+    padding-left: 70px; 
+    padding-top: 80px;
+}
+
+section{
+    width: 100%; 
+    display: inline-block; 
+    
+}
+
+#ide{
+    background-color: lightgrey; 
+}
+
+#installasjon{
+    background-color: white; 
+}
+
+#vedlikehold{
+    background-color: lightgrey; 
+}
+
+#kontakt{
+    background-color: white; 
+}
+
+#kontakt p{
+    font-size: 15px;  
+}
+
+li a: hover{
+   background-color: #555;
+    color: white;
+}
+
+.all{
+    padding-left: 15%; 
+}
+
+button{
+    background-color: lightgray; 
+    font-size: 23px;
+    padding: 5px;
+    
+}
+
+#kontakt img:hover{
+        background: rgba(76, 175, 80, 0.8);
+
+}
+
+.active {
+    color: greenyellow; 
+}
